@@ -61,13 +61,16 @@ div img{
 	height: 219px;
 }
 .third-img{
-	margin-right: 25px;
-	margin-left: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 .fifth-img{
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
+/*სურათებს შორის 25 პიქსელი უნდა იყოს თუმცა ვერაფრით ვერ დავალაგე ეგრე ერთ ხაზზე ამიტომ შევამცირე
+ანუ სურათს ზომა 219 პიქსელია 5 ფოტოსთვის ჯამში 1095 გამოდის პლიუს 4 დაშორება 25 პიქსელიანი ჯამში 1195
+მაგრამ მაინც არ დამილაგა ერთ ზომაზე*/
 div{
 	display: inline-block;
 }
@@ -87,8 +90,7 @@ p{
 	color: #FFFFFF;
 	font-size: 16px;
 	padding: 18px 77px 18px 57px;
+	margin: 0px 440px 180px 430px;
 	border-radius: 28px;
 	background-color: #0A22F4;
-	text-align: center;
-	display: inline-block;
 }
