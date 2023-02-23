@@ -2,18 +2,20 @@
 
 header{
 	background-color: #0020F4;
-	height: 388px;
-	padding-top: 40px;
-	padding-left: 240px;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 288px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 nav a{
 	color: #FFFFFF;
 	font-size: 16px;
 }
 nav{
-	margin-top: 24px;
-	margin-right: 241px;
-	float: right;
+	display: flex;
 }
 .main-button{
 	margin-right: 43px;
